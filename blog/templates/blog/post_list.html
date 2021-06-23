@@ -19,5 +19,14 @@
 		<li>is</li>
 		<li>a</li>
 		<li>list</li><ul>
+		<div>
+		{% for post in posts %}
+			<article>
+				<time>published: {{ post.published_date }}</time>
+				<h4><a href="">{{ post.title }}</a></h4>
+				<p>{{ post.text|linebreaksbr }}</p>
+			</article>
+		{% endfor %}
+		</div>
 	</body>
 </html>
