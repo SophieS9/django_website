@@ -1,0 +1,70 @@
+.page-header{
+	background-color: #ba84e0;
+	margin-top: 0;
+	margin-bottom: 40px;
+	padding: 20px 20px 20px 40px;
+}
+
+.page-header h1,
+.page-header h1 a,
+.page-header h1 a:visted,
+.page-header h1 a:active{
+	colour: #3e2e4a;
+	font-size: 36pt;
+	text-decoration: none;
+}
+
+h1,
+h2,
+h3,
+h4{
+	font-family: 'Lobster', cursive;
+}
+
+.date{
+	color: #828282;
+}
+
+.save{
+	float:right;
+}
+
+.post-form textarea,
+.post-form input{
+	width: 100%
+}
+
+.top-menu,
+.top-menu:hover,
+.top-menu:visted{
+	color: #3e2e4a;
+	float: right;
+	font-size: 26pt;
+	margin-right: 20px;
+}
+
+.post{
+	margin-bottom: 70px;
+}
+
+.post h2 a,
+.post h2 a:visted{
+	color: #000000;
+}
+
+.post > .date,
+.post > .actions {
+	float: right;
+}
+
+.btn-default,
+.btn-default:visited {
+	color: #3e2e4a;
+	background: none;
+	border-color: #3e2e4a;
+}
+
+.btn-default:hover {
+	color: #FFFFFF;
+	background-color: #C25100;
+}
